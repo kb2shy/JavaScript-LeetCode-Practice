@@ -1,7 +1,6 @@
 var maxArea = function(height) {
     let maxArea = 0, leftIndex = 0, rightIndex = height.length - 1;
 
-    let count = 1;
     // for (let i = 0; i < height.length - 1; i++) {
     //     for (let j = i + 1; j < height.length; j++) {
     //         let minHeight = Math.min(height[i], height[j]);
